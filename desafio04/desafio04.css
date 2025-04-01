@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-color:darkturquoise;
+}
+
+#box-header {
+    width: 1000px;
+    color:#ffff;
+    text-align: center;
+    font-size: 16px;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+section {
+    background-image:url(images/images/people.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    height:600px;
+    position: relative;
+
+}
+
+#section-box {
+    width:370px;
+    height:470px;
+    background-color: rgba(255, 255, 255, 0.555);
+    top:30px;
+    right:25px;
+    position:absolute;
+    padding:22px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size:20px;
+    margin-bottom:22px
+    
+}
+
+p {
+    font-size:20px;
+    margin-bottom: 22px;
+}
+
+.form {
+    width:330px;
+    height:30px;
+    margin-bottom:13px;
+}
+
+button {
+    background-color:darkturquoise; 
+    color:white;
+    border: none; 
+    font-size:17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+footer {
+        background-color: rgb(48, 46, 46);
+        padding:50px;
+        color:white;
+
+
+}
+
+#container {
+    margin:auto;
+    width:800px;
+}
+
+#container > img {
+    width:180px;
+    height:250px;
+    border-radius:10px;
+}
+
+#footer-div {
+    display: inline-block;
+    width:420px;
+    margin-left:40px;
+    vertical-align:super;
+}
+
+h3 {
+    margin-bottom:20px;
+}
+
