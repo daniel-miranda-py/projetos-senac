@@ -1,0 +1,47 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+#top-bar {
+    background-color: #1237A6;
+    color: #ffff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:18px;
+    background-color:#2E6FF2;
+    color:white;
+    font-size:18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* colocar pseudoclasse nos links
+por que o peso da fonte não altera?
+ */
+a {
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    font-weight:50;
+}
+
+hr {
+    color: blue;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+}
