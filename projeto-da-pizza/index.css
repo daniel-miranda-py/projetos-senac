@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color:#ffff;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+#logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 16px;
+    width:250px;
+}
+
+#logo-img {
+    max-width: 100px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a {
+    margin-right:30px;  
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size:16px;
+
+}
+.nav-img {
+    width: 50px;  
+}   
+
+#img-section {
+    background-image:url(img-zarriapi/457-4572678_free-png-pizza-png-png-image-with-transparent-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: red;
+    
+}
